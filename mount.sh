@@ -30,9 +30,6 @@ if [ $? -eq 0 ]; then
         echo "Unmounting DMG file..."
         hdiutil detach "/Volumes/DMG_Mount"
 
-        # Move the ZIP file to the script's directory
-        mv "/tmp/$output_zip" "$(dirname "$0")/$output_zip"
-
         echo "Process completed successfully."
     else
         echo "Error: Failed to mount DMG file."
