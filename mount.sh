@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download
-dmg_url="https://example.com/path/to/your/file.dmg"
+dmg_url="https://github.com/LANDrop/LANDrop-releases/raw/master/LANDrop-latest-macos.dmg"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
