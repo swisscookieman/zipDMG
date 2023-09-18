@@ -1,40 +1,24 @@
-name: Create DMG Archive
+name: zipDMG
 
 on:
   push:
-    branches:
-      - main
+    branches: 
+      - '**'
+  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: macos-latest
+    name: zipDMG
+    runs-on: macos-12
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Run DMG script
-      run: |
-        chmod +x download_and_zip.sh
-        ./download_and_zip.sh
-      working-directory: ${{ github.workspace }}
-
-    - name: Archive ZIP file
-      id: archive
-      run: |
-        mv /path/to/output/output.zip ${{ github.workspace }}/output.zip
-      continue-on-error: true
-
-    - name: Upload ZIP file
-      uses: actions/upload-artifact@v2
-      with:
-        name: output-zip
-        path: ${{ github.workspace }}/output.zip
-
-    - name: Set ZIP output
-      id: set-output
-      run: echo "::set-output name=zip_file::${{ github.workspace }}/output.zip"
-
-outputs:
-  zip_file:
-    description: 'The path to the generated ZIP file'
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: build
+        run:  chmod +x mount.sh && bash mount.sh
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ZIP OUTPUT
+          path: |
+            /Users/runner/work/${{github.event.repository.name}}/${{github.event.repository.name}}/output.zip
