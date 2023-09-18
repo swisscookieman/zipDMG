@@ -14,11 +14,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: build
+      - name: Mount DMG and zip it
         run:  chmod +x mount.sh && bash mount.sh
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: ZIP OUTPUT
+          name: zipDMG Output
           path: |
-              /Users/runner/work/${{github.event.repository.name}}/${{github.event.repository.name}}/output.zip
+              /tmp/output.zip
