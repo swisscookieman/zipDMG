@@ -17,18 +17,22 @@ curl -o "/tmp/file.dmg" "$dmg_url"
 if [ $? -eq 0 ]; then
     # Mount the DMG file
     echo "Mounting DMG file..."
-    hdiutil attach "/tmp/file.dmg" -mountpoint "$mount_dir"
+    hdiutil attach "/tmp/file.dmg" -mountpoint "/Volumes/DMG_Mount"
 
     # Check if the mounting was successful
     if [ $? -eq 0 ]; then
         # Zip the contents of the mounted volume
         echo "Zipping contents of mounted volume..."
-        cd "$mount_dir" || exit
-        zip -r "$output.zip" .
+        cd "/Volumes/DMG_Mount" || exit
+        zip -r "/tmp/$output_zip" .
+
         # Unmount the DMG file
         echo "Unmounting DMG file..."
-        hdiutil detach "$mount_dir"
-        ls
+        hdiutil detach "/Volumes/DMG_Mount"
+
+        # Move the ZIP file to the script's directory
+        mv "/tmp/$output_zip" "$(dirname "$0")/$output_zip"
+
         echo "Process completed successfully."
     else
         echo "Error: Failed to mount DMG file."
