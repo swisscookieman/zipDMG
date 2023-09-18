@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://discord.com/api/download?platform=osx"
+dmg_url="https://dl.discordapp.net/apps/osx/0.0.277/Discord.dmg"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
