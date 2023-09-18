@@ -21,4 +21,4 @@ jobs:
         with:
           name: ZIP OUTPUT
           path: |
-            /Users/runner/work/${{github.event.repository.name}}/${{github.event.repository.name}}/output.zip
+            /Volumes/DMG_Mount/output.zip
