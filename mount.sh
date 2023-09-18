@@ -25,13 +25,10 @@ if [ $? -eq 0 ]; then
         echo "Zipping contents of mounted volume..."
         cd "$mount_dir" || exit
         zip -r "$output.zip" .
-
         # Unmount the DMG file
         echo "Unmounting DMG file..."
         hdiutil detach "$mount_dir"
         ls
-        # Move the ZIP file to the desired location
-
         echo "Process completed successfully."
     else
         echo "Error: Failed to mount DMG file."
