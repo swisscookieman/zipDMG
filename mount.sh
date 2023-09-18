@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download
-dmg_url="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/LANDrop/LANDrop-releases/blob/master/LANDrop-latest-macos.dmg"
+dmg_url="https://downloads.imazing.com/mac/iMazing/iMazing2forMac.dmg"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
