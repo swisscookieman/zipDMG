@@ -29,9 +29,8 @@ if [ $? -eq 0 ]; then
         # Unmount the DMG file
         echo "Unmounting DMG file..."
         hdiutil detach "$mount_dir"
-
+        ls
         # Move the ZIP file to the desired location
-        mv "$output_zip" "/path/to/output/$output_zip"
 
         echo "Process completed successfully."
     else
