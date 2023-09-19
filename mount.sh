@@ -7,7 +7,7 @@ dmg_url="https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg
 mount_dir="/Volumes/DMG_Mount"
 
 # Set the name of the output ZIP file
-output_zip="output.zip"
+output_zip="output.tar.gz"
 
 # Download the DMG file
 echo "Downloading DMG file..."
@@ -24,7 +24,8 @@ if [ $? -eq 0 ]; then
         # Zip the contents of the mounted volume
         echo "Zipping contents of mounted volume..."
         cd "/Volumes/DMG_Mount" || exit
-        zip -r "/tmp/$output_zip" .
+        zip -r "" .
+        tar -czf /tmp/$output_zip .
 
         # Unmount the DMG file
         echo "Unmounting DMG file..."
