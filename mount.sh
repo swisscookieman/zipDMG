@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://download.opera.com/download/get/?id=62968&location=415&nothanks=yes&sub=marine&utm_tryagain=yes"
+dmg_url="https://releases.arc.net/release/Arc-latest.dmg"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
