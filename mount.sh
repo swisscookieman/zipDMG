@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://aio-fowntain.koyeb.app/uv/service/hvtrs8%2F-dn.fonpjil-gmw.mre%2F%60uklfs-cd%2Fae-dmlrhkn%2Fmcsvep-7.2-39%3A72-wnkvgrqan.fme"
+dmg_url="https://net.geo.opera.com/opera/stable/mac?utm_tryagain=yes&utm_source=google&utm_medium=ose&utm_campaign=(none)&http_referrer=https%3A%2F%2Fwww.google.com%2F&utm_site=opera_com&"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
