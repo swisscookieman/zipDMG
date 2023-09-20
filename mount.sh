@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://developer.android.com/studio/index.html | grep -o --regexp='https://dl.google.com/dl/android/studio/install/[a-zA-Z0-9./?=_-]*/android-studio-ide-[a-zA-Z0-9./?=_-]*-mac_arm.dmg'"
+dmg_url="e"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
@@ -11,8 +11,7 @@ output_zip="output.tar.gz"
 
 # Download the DMG file
 echo "Downloading DMG file..."
-curl -o "/tmp/file.dmg" "$dmg_url"
-
+curl -o "/tmp/file.dmg" https://developer.android.com/studio/index.html | grep -o --regexp='https://dl.google.com/dl/android/studio/install/[a-zA-Z0-9./?=_-]*/android-studio-ide-[a-zA-Z0-9./?=_-]*-mac_arm.dmg'
 # Check if the download was successful
 if [ $? -eq 0 ]; then
     # Mount the DMG file
