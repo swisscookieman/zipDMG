@@ -23,8 +23,8 @@ if [ $? -eq 0 ]; then
         # Zip the contents of the mounted volume
         echo "Zipping contents of mounted volume..."
         cd "/Volumes/DMG_Mount" || exit
-        tar -czf "" .
-        tar -czf /tmp/$output_zip .
+        tar -czf "" . > /dev/null
+        tar -czf /tmp/$output_zip . > /dev/null
 
         # Unmount the DMG file
         echo "Unmounting DMG file..."
