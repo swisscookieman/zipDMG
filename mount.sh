@@ -11,7 +11,7 @@ output_zip="output.tar.gz"
 
 # Download the DMG file
 echo "Downloading DMG file..."
-wget -O "/tmp/file.dmg" "$dmg_url" > /dev/null
+wget -O "/tmp/file.dmg" "$dmg_url"
 # Check if the download was successful
 if [ $? -eq 0 ]; then
     # Mount the DMG file
