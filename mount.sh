@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-3c70573be0b975970d4927734bf4636ad7424805/rpcs3-v0.0.29-15622-3c70573b_macos.dmg"
+dmg_url="https://github.com/cemu-project/Cemu/releases/download/v2.0-51/cemu-2.0-51-macos-12-x64.dmgs"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
