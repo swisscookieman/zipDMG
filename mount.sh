@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://aio-fowntain.koyeb.app/uv/service/hvtrs8%2F-wuw%2Ctmrrrmjgcv.mre%2Ffiqt-tmr%60rmwqep%2F32%2C5%2C4-Tmr%40rmwqep-32%2C5%2C4%2Fmccms%5DANL%2Cdog"
+dmg_url="https://releases.hyper.is/download/mac_arm64"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
