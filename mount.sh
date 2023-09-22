@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://aio-fowntain.koyeb.app/uv/service/hvtrs8%2F-fklgs0.drgefounnocdoalaeep.mre%2F4%2Fnaveqt-ffm%2Cdog"
+dmg_url="https://imazing.com/download/macos"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
