@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://downloads.imazing.com/mac/iMazing/iMazing2forMac.dmg"
+dmg_url="https://github.com/CoocooFroggy/FutureRestore-GUI/releases/download/v1.98.3/FutureRestore-GUI-Mac-1.98.3.dmg"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
