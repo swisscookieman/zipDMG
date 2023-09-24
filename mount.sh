@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="Roblox.dmg"
+dmg_url="https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg?cid=1922480894.1695553182&fbp=fb.1.1695553188616.479741241&ga4_session=GS1.1.1695553183.1.1.1695553213.30.0.0"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
