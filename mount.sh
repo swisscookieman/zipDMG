@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://test.c22code.repl.co/notch.dmg"
+dmg_url="https://github.com/transmission/transmission/releases/download/4.0.4/Transmission-4.0.4.dmg"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
