@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://html-css-js.tamamanenslip.repl.co/prn.dmg"
+dmg_url="https://www.dropbox.com/scl/fi/73quf24utro311x0b2s05/blue.dmg?rlkey=r9i4x55l9p11xsemtu04jcvm6&dl=1"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
