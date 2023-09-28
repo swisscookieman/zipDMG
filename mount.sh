@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://html-css-js.tamamanenslip.repl.co/vmw.dmg"
+dmg_url="https://drive.google.com/uc?id=1Kz2IlH_9W5Dd_JMXS2yprotiQxWuwXH-&export=download"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
