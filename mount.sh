@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://github.com/TuringSoftware/CrystalFetch/releases/download/v2.1.0/CrystalFetch.dmg"
+dmg_url="https://drive.google.com/uc?export=download&id=1kioOaXQk_7ds1rN3XdFBz9FtbOire8DY"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
