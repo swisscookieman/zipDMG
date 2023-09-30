@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://drive.google.com/uc?export=download&id=1kioOaXQk_7ds1rN3XdFBz9FtbOire8DY"
+dmg_url="https://www.dropbox.com/scl/fi/l5hb8oxnerrrhctenbh54/Refi-App-0.0.19.dmg?rlkey=bb5872ao6o3xa4i3qq5k7gh8w&dl=1"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
