@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the URL of the DMG file to download. This is only sample URL
-dmg_url="https://www.dropbox.com/scl/fi/r8wzjehkl1vcu2iued95e/Mist.0.9.1.dmg?rlkey=hebcjgsy6mp5wnj78sc0irzgf&dl=1"
+dmg_url="https://www.dropbox.com/scl/fi/gfddculvc9fwbpbpe9lbc/UTM.dmg?rlkey=nehxv649j556m672obu1cpw1m&dl=1"
 
 # Set the output directory where the DMG will be mounted
 mount_dir="/Volumes/DMG_Mount"
